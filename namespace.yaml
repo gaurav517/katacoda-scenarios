@@ -9,6 +9,7 @@ metadata:
   labels:
     run: nginx
   name: nginx
+  namespace: chaos
 spec:
   containers:
   - image: nginx
